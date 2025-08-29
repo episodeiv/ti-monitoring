@@ -1,0 +1,13 @@
+[project]
+name = "TI-monitoring"
+version = "0.0.1"
+description = "Dieses Tool dient der Überwachung verschiedener Komponenten der Telematikinfrastruktur (TI)"
+requires-python = ">=3.11"
+dependencies = [
+	"numpy",
+	"pandas",
+	"h5py",
+	"requests",
+	"tzlocal",
+	"dash",
+]
